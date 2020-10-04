@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/drptbl/docker-sec-tools.git"
   },
-  "author": "Jakub Mucha <jakub.mucha@icloud.com>",
+  "author": "Jakub Mucha <jm@drptbl.dev>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/drptbl/docker-sec-tools/issues"
