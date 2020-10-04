@@ -15,10 +15,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Lint
-        uses: reviewdog/action-hadolint@v1
+        uses: drptbl/hadolint-action@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
-          reporter: github-pr-review
+          dockerfile: ./${{ matrix.node }}/Dockerfile
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
