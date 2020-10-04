@@ -55,7 +55,7 @@ jobs:
           tags: |
             ${{ github.repository }}:12.18
             ghcr.io/${{ github.repository }}:12.18
-            docker.pkg.github.com/${{ github.repository }}/${{ github.repository }}:12.18
+            docker.pkg.github.com/${{ github.repository }}/${{ github.event.repository.name }}:12.18
 
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
