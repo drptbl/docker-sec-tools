@@ -25,6 +25,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-buildx-
 
+      - name: Dump github context
+        run:   echo "$GITHUB_CONTEXT"
+        shell: bash
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+
       - name: Login to DockerHub
         uses: docker/login-action@v1
         with:
