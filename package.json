@@ -1,7 +1,7 @@
 {
   "name": "docker-sec-tools",
   "version": "1.0.0",
-  "description": "Docker contained based on cimg-node with security-oriented tools included.",
+  "description": "Docker container based on cimg-node with security-oriented tools included.",
   "main": "generate.js",
   "scripts": {
     "generate": "node generate.js"
