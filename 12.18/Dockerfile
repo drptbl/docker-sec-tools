@@ -1,4 +1,4 @@
-FROM cimg/node:12.18
+FROM cimg/node:12.19
 
 LABEL authors="Jakub Mucha <jm@drptbl.dev>"
 
